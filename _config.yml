@@ -1,0 +1,16 @@
+# Site settings
+title: Levi9 Symofony Training
+email: m.labinskyi@levi9.com
+description: |
+  Levi9 internall Symfony training.
+  The leading PHP framework to create websites and web applications.
+  Embracing and promoting professionalism, best practices, standardization and interoperability of applications.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+github:
+    - e-moe
+    - maxmode
+twitter_username:
+
+# Build settings
+markdown: kramdown
