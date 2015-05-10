@@ -59,6 +59,6 @@ Required test cases:
 Register account on [GitHub][github]. Create open source project, commit your code and send the link,
 as a result of fulfilled home task.
 
-[warmup_form]:  {{ site.baseurl }}/assets/warmup_form.png
-[warmup_statistics]:  {{ site.baseurl }}/assets/warmup_statistics.png
-[github]:       https://github.com/
+[warmup_form]:          {{ site.baseurl }}/assets/warmup_form.png
+[warmup_statistics]:    {{ site.baseurl }}/assets/warmup_statistics.png
+[github]:               https://github.com/

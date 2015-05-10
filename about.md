@@ -61,5 +61,5 @@ fields, headers, bodies and statuses. API development guideline and best practic
 * Exceptions and HTTP status codes
 * API best practices
 
-[warmup]:       {% post_url 2015-05-12-warmup %}
-[schedule]:     {% post_url 2015-05-10-introduction %}
+[warmup]:       {{ site.baseurl }}{% post_url 2015-05-12-warmup %}
+[schedule]:     {{ site.baseurl }}{% post_url 2015-05-10-introduction %}
