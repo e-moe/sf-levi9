@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "Warmup assignment"
+date:   2015-05-12 10:00:00
+category: assignments
+tags:
+    - training
+    - assignment
+    - warmup
+---
+## Recycle batteries.
+
+Idea of "Recycle batteries" web application is to count amount of collected batteries.
+
+There is a box for used batteries and a computer near the box, with our web application. When someone
+brings old batteries – he throws them into the box and submit a form in application. The form is about
+"I added 2 batteries of type AAA to the box".
+
+After a couple of days, when the box is almost full, we could get a statistics, what is inside the box?
+For example, there would be 12 AAA batteries, 20 AA batteries and 5 "undefined" ones. No idea,
+whether this statistics was important or not, but it is a good example to build a simple web application on Symfony.
+So, let’s start:
+
+### 1. Install a Symfony framework.
+ 
+Check, that your computer is able to run Symfony. If you are new to Symfony 2, find out how that demo bundle works.
+
+To download Symfony and create project you may start with:
+
+{% highlight bash %}
+$ curl -LsS http://symfony.com/installer -o symfony
+$ php symfony new batteries
+{% endhighlight %}
+
+### 2. Implement functionality.
+
+Create a page with form to add information about batteries. 
+Form must contain fields: "Type", "Count" and "Name". "Name" is not required field, even anonymous one can give us
+used batteries☺. After form is submitted, the record about added batteries is stored in database.
+
+![Form][warmup_form]
+
+Create a page with statistics of collected batteries. There must be a table on this page with two columns:
+"Battery type" and "Total count"
+
+![Statistics][warmup_statistics]
+
+### 3. Write functional test for "statistics" feature. 
+
+Required test cases:
+ 
+* Submit "Battery form" with 4 AA batteries
+* Submit "Battery form" with 3 AAA batteries
+* Submit "Battery form" with 1 AA battery.
+* Open statistics page and assert that there are 2 rows in the table, with counts: AA – 5, AAA – 3.
+
+### 4. Share your code.
+
+Register account on [GitHub][github]. Create open source project, commit your code and send the link,
+as a result of fulfilled home task.
+
+[warmup_form]:  {{ site.baseurl }}/assets/warmup_form.png
+[warmup_statistics]:  {{ site.baseurl }}/assets/warmup_statistics.png
+[github]:       https://github.com/
