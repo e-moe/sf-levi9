@@ -148,7 +148,17 @@ pre {
     }
 }
 
+table {
+    border-collapse: collapse;
 
+    tr:nth-child(even) {
+        background-color: #eee;
+    }
+
+    td {
+        padding: 0 0.5em;
+    }
+}
 
 /**
  * Wrapper

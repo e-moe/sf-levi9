@@ -1,0 +1,26 @@
+- date: '2015-05-13'
+  name: Warmup assignment discussion.
+
+- date: '2015-05-14'
+  name: Workshop 1. Architecture of a web project on Symfony.
+
+- date: '2015-05-20'
+  name: Workshop 1 assignment discussion.
+
+- date: '2015-05-21'
+  name: Workshop 2. SonataAdminBundle – CRUD generator for Back-end and Front-end.
+
+- date: '2015-05-27'
+  name: Workshop 2 assignment discussion.
+
+- date: '2015-05-28'
+  name: Workshop 3. High load projects on Symfony.
+
+- date: '2015-06-03'
+  name: Workshop 3 assignment discussion.
+
+- date: '2015-06-04'
+  name: Workshop 4. RESTful webservices and FOSRestBundle.
+
+- date: '2015-06-10'
+  name: Workshop 4 assignment discussion and Final notes.
