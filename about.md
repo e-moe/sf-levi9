@@ -8,7 +8,7 @@ permalink: /about/
 
 ## Training organisation.
 
-Training consist of 4 workshops (each with it's own home task) and one optional [warmup][warmup] assignment to check
+Training consists of 4 workshops (each with its own home task) and one optional [warmup][warmup] assignment to check
 trainees Symfony framework knowledge level.
 
 [Training schedule][schedule]
