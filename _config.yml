@@ -1,8 +1,8 @@
 # Site settings
-title: Levi9 Symofony Training
+title: Levi9 Symfony Training
 email: m.labinskyi@levi9.com
 description: |
-  Levi9 internall Symfony training.
+  Levi9 internal Symfony training.
   The leading PHP framework to create websites and web applications.
   Embracing and promoting professionalism, best practices, standardization and interoperability of applications.
 baseurl: "/sf-levi9" # the subpath of your site, e.g. /blog/
