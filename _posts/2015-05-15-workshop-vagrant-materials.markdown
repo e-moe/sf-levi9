@@ -2,7 +2,7 @@
 layout: post
 title:  Workshop. Vagrant - Developing complex environments locally
 date:   2015-05-15 12:55:00
-category: assignments
+category: vagrant
 tags:
     - training
     - materials

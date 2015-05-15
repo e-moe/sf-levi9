@@ -2,7 +2,7 @@
 layout: page
 title: Assignment. Vagrant - Developing complex environments locally
 date:   2015-05-15 13:00:00
-category: assignments
+category: vagrant
 tags:
     - training
     - assignment
