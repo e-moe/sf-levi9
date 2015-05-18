@@ -15,6 +15,12 @@ excerpt: |
 * TOC
 {:toc}
 
+## Received assignments.
+
+* https://github.com/panayotovyura/project1
+
+* https://gitlab.levi9.com/o.kaleniuk/sf-workshop-hw
+
 ## Composer.
 
 * You don't need to upload vendor folder. Put it to your ".gitignore" file. Upload only "composer.json" and
