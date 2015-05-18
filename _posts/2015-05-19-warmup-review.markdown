@@ -24,11 +24,11 @@ excerpt: |
 ## Composer.
 
 * You don't need to upload vendor folder. Put it to your ".gitignore" file. Upload only "composer.json" and
-   "composer.lock" files.
+   "composer.lock" files
 
-* Add real "name" and "description" fields.
+* Add real "name" and "description" fields
 
-* Update/add "php" version in "require" section and used extensions.
+* Update/add "php" version in "require" section and used extensions
 
 * Use "github-oauth" token ([details][composer-gh-token])
 
@@ -37,6 +37,8 @@ excerpt: |
 * Try to omit deprecated functions (e.g. "$this->getDoctrine()->getEntityManager()")
 
 * Name your controllers correctly
+
+* Put all bundle related data in bundle itself, ideally they should be independent from each other and from application itself
 
 ## Forms.
 
@@ -48,11 +50,11 @@ excerpt: |
 
 ## Functional tests.
 
-* Tests should be able to run multiple times.
+* Tests should be able to run multiple times
 
-* Test functions should be atomic.
+* Test functions should be atomic
 
-* It's better to use short selectors.
+* It's better to use short selectors
 
 [composer-gh-token]:        https://getcomposer.org/doc/articles/troubleshooting.md#api-rate-limit-and-oauth-tokens
 [sf-forms-buttons]:         http://symfony.com/doc/current/best_practices/forms.html#form-button-configuration
