@@ -58,10 +58,8 @@ Create a page with statistics of collected batteries. There must be a table on t
 
 Required test cases:
  
-* Submit "Battery form" with 4 AA batteries
-* Submit "Battery form" with 3 AAA batteries
-* Submit "Battery form" with 1 AA battery.
-* Open statistics page and assert that there are 2 rows in the table, with counts: AA – 5, AAA – 3.
+* Check form functionality (fill and submit)
+* Check statistics page (Battery type grouping and correct total count)
 
 ## 4. Share your code.
 
