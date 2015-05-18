@@ -17,20 +17,20 @@ excerpt: |
 
 ## Composer.
 
-1. You don't need to upload vendor folder. Put it to your ".gitignore" file. Upload only "composer.json" and
+* You don't need to upload vendor folder. Put it to your ".gitignore" file. Upload only "composer.json" and
    "composer.lock" files.
 
-2. Add real "name" and "description" fields.
+* Add real "name" and "description" fields.
 
-3. Update/add "php" version in "require" section and used extensions.
+* Update/add "php" version in "require" section and used extensions.
 
 * Use "github-oauth" token ([details][composer-gh-token])
 
 ## Symfony.
 
-1. Try to omit deprecated functions (e.g. "$this->getDoctrine()->getEntityManager()")
+* Try to omit deprecated functions (e.g. "$this->getDoctrine()->getEntityManager()")
 
-2. Name your controllers correctly
+* Name your controllers correctly
 
 ## Forms.
 
@@ -42,9 +42,9 @@ excerpt: |
 
 ## Functional tests.
 
-1. Tests should be able to run multiple times.
+* Tests should be able to run multiple times.
 
-2. Test functions should be atomic.
+* Test functions should be atomic.
 
 * It's better to use short selectors.
 
