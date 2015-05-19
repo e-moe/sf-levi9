@@ -42,6 +42,10 @@ excerpt: |
 
 * Add PHPUnit and similar tools into "composer.json" "require-dev" section
 
+## Git
+
+* Put your local files/folders in ".gitignore" (e.g. ".idea" folder of your IDE)
+
 * Commit often
 
 ## Symfony.
