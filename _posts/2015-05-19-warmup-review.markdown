@@ -27,6 +27,8 @@ excerpt: |
 
 * https://github.com/DmitriyKozyatinskiy/batteries
 
+* https://github.com/MalinovskyM/learn_symfony
+
 ## Composer.
 
 * You don't need to upload vendor folder. Put it to your ".gitignore" file. Upload only "composer.json" and
