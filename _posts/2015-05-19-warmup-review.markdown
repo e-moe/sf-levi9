@@ -52,6 +52,8 @@ excerpt: |
 
 * Clear all acme demo files 
 
+* Use Symfony IDE integration (e.g PHP Storm [integration][phpstorm-integration])
+
 ## Routing.
 
 * Add bundle routes file in app/config/routing only once. Try to avoid route duplication
@@ -97,3 +99,4 @@ excerpt: |
 [composer-gh-token]:        https://getcomposer.org/doc/articles/troubleshooting.md#api-rate-limit-and-oauth-tokens
 [sf-forms-buttons]:         http://symfony.com/doc/current/best_practices/forms.html#form-button-configuration
 [sf-paramconverter]:        http://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/annotations/converters.html
+[phpstorm-integration]:     https://confluence.jetbrains.com/display/PhpStorm/Symfony+Development+using+PhpStorm
