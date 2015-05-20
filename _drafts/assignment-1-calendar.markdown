@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Assignment 1. Sport calendar"
-date:   2015-05-14 09:00:00
+date:   2015-05-20 09:00:00
 category: assignments
 tags:
     - training
@@ -85,6 +85,16 @@ are needed.
 Also Exercise entity should have relation to User entity, so when somebody is logged in – he sees only his own
 exercises.
 
+## 8. Static Analysis Tools.
+
+Update your composer.json require-dev section to install these tools:
+
+* [PHP_CodeSniffer][phpcs] (Use [PSR2][psr2] coding style guide rules set)
+* [PHP Mess Detector][phpmd]
+* [PHP Copy/Paste Detector][phpcpd]
+
+Check your "src/" folder and try to clean all errors/warnings.  
+
 ## 7. Share your code.
 
 Commit your code into [GitHub][github] and send the link as a result of fulfilled home task.
@@ -92,3 +102,7 @@ Commit your code into [GitHub][github] and send the link as a result of fulfille
 [calendar_table]:       {{ site.baseurl }}/assets/calendar_table.png
 [github]:               https://github.com/
 [alice]:                https://github.com/hautelook/AliceBundle
+[phpcs]:                https://github.com/squizlabs/PHP_CodeSniffer
+[phpmd]:                http://phpmd.org/
+[phpcpd]:               https://github.com/sebastianbergmann/phpcpd
+[psr2]:                 https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
