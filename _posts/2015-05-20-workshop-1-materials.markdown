@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Workshop 1. Architecture of a web project on Symfony"
-date:   2015-05-14 09:00:00
+date:   2015-05-20 09:00:00
 category: assignments
 tags:
     - training
