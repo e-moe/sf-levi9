@@ -31,6 +31,7 @@ How Symfony protects project from such vulnerabilities as XSS, CSRF and SQL Inje
 * [The Symfony Book][sf-book]
 * [The Symfony Cookbook][sf-cookbook]
 * [Symfony Best Practices][sf-best-practices]
+* [PHP Quality Assurance Tools][php-code-quality]
 
 ## Attachments.
 
@@ -41,3 +42,4 @@ How Symfony protects project from such vulnerabilities as XSS, CSRF and SQL Inje
 [sf-cookbook]:          http://symfony.com/doc/current/cookbook/index.html
 [sf-best-practices]:    http://symfony.com/doc/current/best_practices/index.html
 [presentation]:         {{ site.baseurl }}/assets/workshop_1_architecture.pptx
+[php-code-quality]:     http://www.sitepoint.com/8-must-have-php-quality-assurance-tools/
