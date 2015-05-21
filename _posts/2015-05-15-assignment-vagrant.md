@@ -88,6 +88,8 @@ we will create three virtual machines: 2 identical PHP nodes and 1 load balancer
 ## Attachments.
 
 * [Workshop presentation (pptx)][vagrant_pptx]
+* [Reference solution][vagrant-bb]
 
 [vagrant_schema]:    {{ site.baseurl }}/assets/vagrant.png
 [vagrant_pptx]:      {{ site.baseurl }}/assets/vagrant.pptx
+[vagrant-bb]:        https://bitbucket.org/m_labinskyi/vagrant_workshop/src

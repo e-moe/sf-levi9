@@ -31,8 +31,10 @@ Create and configure lightweight, reproducible, and portable development environ
 ## Attachments.
 
 * [Workshop presentation (pptx)][vagrant_pptx]
+* [Reference solution][vagrant-bb]
 
 [vagrant_pptx]:     {{ site.baseurl }}/assets/vagrant.pptx
 [vagrant]:          https://docs.vagrantup.com/v2/
 [virtualbox]:       https://www.virtualbox.org/
 [puphpet]:          https://puphpet.com/
+[vagrant-bb]:       https://bitbucket.org/m_labinskyi/vagrant_workshop/src
