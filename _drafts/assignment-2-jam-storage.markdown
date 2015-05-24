@@ -37,6 +37,8 @@ JamJar entity has next fields: jam type (single select), year (single select), c
 
 Please, create few values for enumerations and few JamJar instances via [Alice][alice] fixtures.
 
+**Tip:** _Use [SQLite][sqlite] for additional experience and respect ☺._
+
 ## 2. Set up Sonata Admin Bundle.
 
 Set up bundle and implement CRUD for enumerations. Use [documentation][sonata] for help.
@@ -64,9 +66,19 @@ Update your "composer.json" "require-dev" section to install these tools:
 * [PHP Mess Detector][phpmd]
 * [PHP Copy/Paste Detector][phpcpd]
 
-Check your "src/" folder and try to clean all errors/warnings.  
+Check your "src/" folder and fix **all** errors/warnings.
+  
+## 7. Integrate Travis CI
+ 
+Integrate continuous integration (CI) into your repository based on [Travis CI][travis-ci]
+([Getting started][travis-ci-gs], [PHP][travis-ci-php]).
+ 
+* Register in Travis CI (preferable using [GitHub][github] account)
+* Add your repository
+* Create ".travis.yml"
+* Test your integration
 
-## 7. Share your code.
+## 8. Share your code.
 
 Commit your code into [GitHub][github] and send the link as a result of fulfilled home task.
 
@@ -79,3 +91,7 @@ Commit your code into [GitHub][github] and send the link as a result of fulfille
 [psr2]:                 https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
 [phpmd]:                http://phpmd.org/
 [phpcpd]:               https://github.com/sebastianbergmann/phpcpd
+[travis-ci]:            https://travis-ci.org/
+[travis-ci-gs]:         http://docs.travis-ci.com/user/getting-started/
+[travis-ci-php]:        http://docs.travis-ci.com/user/languages/php
+[sqlite]:               https://www.sqlite.org/
