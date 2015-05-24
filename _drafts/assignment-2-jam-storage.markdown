@@ -1,22 +1,20 @@
 ---
 layout: post
-title:  "Assignment 1. Sport calendar"
-date:   2015-05-20 18:00:00
+title:  "Assignment 1. Jam storage"
+date:   2015-05-27 18:00:00
 category: assignments
 tags:
     - training
     - assignment
-    - calendar
+    - jam storage
+    - sonata
 excerpt: |
-    Sport calendar.
-    Idea of sport calendar – is a web application, which helps athletes to track their progress in gym.
-    When athlete finishes an exercise – he came to our site to save the information. For example, he writes that he did
-    press of a bar 8 times with weight 100kg. This data together with timestamp is savedto database.
+    
 ---
 * TOC
 {:toc}
 
-## Sport calendar.
+## Jam storage.
 
 Idea of sport calendar – is a web application, which helps athletes to track their progress in gym.
 
