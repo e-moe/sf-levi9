@@ -9,7 +9,10 @@ tags:
     - jam storage
     - sonata
 excerpt: |
-    
+    Jam storage.
+    Idea of Jam storage – is a web application that keeps information about all jars of jam stored at home.
+    When one receives from a granny few jars of strawberry jam – he adds information about them into database.
+    Sonata Admin Bundle usage, static code quality checks and Travis CI integration.
 ---
 * TOC
 {:toc}
@@ -80,7 +83,7 @@ Integrate continuous integration (CI) into your repository based on [Travis CI][
 
 ## 8. Share your code.
 
-Commit your code into [GitHub][github] and send the link as a result of fulfilled home task.
+Commit your latest code into [GitHub][github] and send the link as a result of fulfilled home task.
 
 [jam-jars]:             {{ site.baseurl }}/assets/jam_jars.jpg
 [sonata]:               https://sonata-project.org/bundles/admin
