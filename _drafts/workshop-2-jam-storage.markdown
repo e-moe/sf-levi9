@@ -29,6 +29,7 @@ images with SonataMedia.
 ## Useful materials.
 
 * [SonataAdminBundle][sonata]
+* [Nelmio Alice bundle][alice]
 * [The Symfony Book][sf-book]
 * [The Symfony Cookbook][sf-cookbook]
 * [Symfony Best Practices][sf-best-practices]
@@ -40,6 +41,7 @@ images with SonataMedia.
 * [Workshop presentation (pptx)][presentation]
 
 [sonata]:               https://sonata-project.org/bundles/admin
+[alice]:                https://github.com/hautelook/AliceBundle
 [sf-book]:              http://symfony.com/doc/current/book/index.html
 [sf-cookbook]:          http://symfony.com/doc/current/cookbook/index.html
 [sf-best-practices]:    http://symfony.com/doc/current/best_practices/index.html

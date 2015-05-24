@@ -87,7 +87,7 @@ exercises.
 
 ## 8. Static Analysis Tools.
 
-Update your composer.json require-dev section to install these tools:
+Update your "composer.json" "require-dev" section to install these tools:
 
 * [PHP_CodeSniffer][phpcs] (Use [PSR2][psr2] coding style guide rules set)
 * [PHP Mess Detector][phpmd]

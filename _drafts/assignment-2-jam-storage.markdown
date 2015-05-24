@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Assignment 1. Jam storage"
+title:  "Assignment 2. Jam storage"
 date:   2015-05-27 18:00:00
 category: assignments
 tags:
@@ -16,76 +16,49 @@ excerpt: |
 
 ## Jam storage.
 
-Idea of sport calendar – is a web application, which helps athletes to track their progress in gym.
+Idea of Jam storage – is a web application that keeps information about all jars of jam stored at home.
 
-When athlete finishes an exercise – he came to our site to save the information. For example,
-he writes that he did press of a bar 8 times with weight 100kg. This data together with timestamp is saved to database.
+![Jam jars][jam-jars]
 
-Then, on a dashboard athlete sees:
+When one receives from a granny few jars of strawberry jam – he adds information about them into database.
+It is possible to write amount of jars, type of jam, year of production and some comment.
 
-* what exercises he did today,
-* what he did a week ago (on the same weekday),
-* what he did 2 weeks ago.
+Then later, when some jar of jam is eaten away, there is possibility to remove one jar from storage.
 
-In current task we will create only dashboard. There will be fixtures that add data for testing purpose,
-so we do not need any form to add exercises.
+And after sweet meal, one can have an overview of jams he didn’t eat yet. ☺
 
-So, go throw steps:
+## 1. Create data model and fill it with fixtures.
 
-## 1. Create new Symfony project on GitHub.
+Data model consists of 2 enumerations (jam type, year of production) and JamJar entity.
 
-Create open source project on [GitHub][github] to commit your code for this assignment.
+Enumerations are simple entities with id + name fields.
 
-## 2. Create data model and fill it with fake data.
+JamJar entity has next fields: jam type (single select), year (single select), comment (text, optional).
 
-There is only one entity - Exercise. Fields are: short description of done exercise, weight,
-count of times exercise was done, date, time (here it’s better to store date without time, it’ll simplify logic later).
+Please, create few values for enumerations and few JamJar instances via [Alice][alice] fixtures.
 
-**Tip:** _You could use build-in code generators to generate a bundle and an entity._
+## 2. Set up Sonata Admin Bundle.
 
-Then you have to fill data model with fake data (for testing). There is excellent tool for this -
-[Nelmio Alice bundle][alice]. Create following fixtures: 3 types of exercises (3 different short descriptions) are
-randomly imploded into dates of last 30 days, including today. Weight is random between 20 and 200kg.
-Count of times – is also random, 5-15. Total amount of exercises done in last 30 days should be about 300-400.
+Set up bundle and implement CRUD for enumerations. Use [documentation][sonata] for help.
 
-## 3. Implement Front-end.
+## 3. Implement CRUD for JamJar entity.
 
-Dashboard should be very simple – just some title and table with 3 columns:
+Use [documentation][sonata] for help.
 
-![Calendar table][calendar_table]
+## 4. Amount functionality
 
-If this project is success, it will require a mobile application with the same dashboard. So, all data should be fetched
-via service layer, to be reused later.
+Add to the form of JamJar "Ammount" field. This field should be available only on "create" form.
+This field is not mapped to entity. By default value of field is 1. If during creation of JamJar user
+changes value to N – then during creation, N instances of JamJar should be created.
 
-**Tip:** _Try to implement this functionality without writing custom query._
+## 5. Write unit tests
 
-## 4. Cover Service class with Unit test.
+It would be nice if this multiplying/copying logic would be stored in a service class and covered with unit test
+([PHPUnit][phpunit]).
 
-Service class is suggested to have one public method to fetch all data, needed for dashboard. This method
-should be covered with Unit test. Unit test means that all external calls from the service are replaced by mocks.
-And service class is only one real object in the test, created via “new” operator.
+## 6. Static Analysis Tools.
 
-## 5. Add multi-lingual support of user interface.
-
-Translate user interface into 2 languages: Russian and English.
-Locale should be defined by part of requested URL. For example, /en/calendar – is English dashboard,
-/ru/calendar – is Russian one.
-
-**Tip:** _Do not translate data, only interface. So, “press of a bar” – will be the same in both locales,
-but “today” would change._
-
-## 6. Add authentication.
-
-Add authentication via form. Users should be stored in database. Use “plaintext” password encoder to simplify testing.
-No need to create registration form, just generate users via fixtures. Although, login/logout links in template
-are needed.
-
-Also Exercise entity should have relation to User entity, so when somebody is logged in – he sees only his own
-exercises.
-
-## 8. Static Analysis Tools.
-
-Update your composer.json require-dev section to install these tools:
+Update your "composer.json" "require-dev" section to install these tools:
 
 * [PHP_CodeSniffer][phpcs] (Use [PSR2][psr2] coding style guide rules set)
 * [PHP Mess Detector][phpmd]
@@ -97,9 +70,11 @@ Check your "src/" folder and try to clean all errors/warnings.
 
 Commit your code into [GitHub][github] and send the link as a result of fulfilled home task.
 
-[calendar_table]:       {{ site.baseurl }}/assets/calendar_table.png
-[github]:               https://github.com/
+[jam-jars]:             {{ site.baseurl }}/assets/jam_jars.jpg
+[sonata]:               https://sonata-project.org/bundles/admin
 [alice]:                https://github.com/hautelook/AliceBundle
+[github]:               https://github.com/
+[phpunit]:              https://phpunit.de/
 [phpcs]:                https://github.com/squizlabs/PHP_CodeSniffer
 [psr2]:                 https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
 [phpmd]:                http://phpmd.org/
