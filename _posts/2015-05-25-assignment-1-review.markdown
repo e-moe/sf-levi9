@@ -80,5 +80,5 @@ description: <randomElement(['Chest Press', 'Biceps Curl', 'Front Lunge', ...])>
 * Test functions should be atomic
 
 [composer-gh-token]:        https://getcomposer.org/doc/articles/troubleshooting.md#api-rate-limit-and-oauth-tokens
-[sf-bp-keys]:               http://symfony.com/doc/current/best_practices/i18n.html
+[sf-bp-keys]:               http://symfony.com/doc/current/best_practices/i18n.html#translation-keys
 [phpstorm-integration]:     https://confluence.jetbrains.com/display/PhpStorm/Symfony+Development+using+PhpStorm
