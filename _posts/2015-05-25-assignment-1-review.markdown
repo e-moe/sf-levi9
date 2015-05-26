@@ -65,6 +65,8 @@ description: <randomElement(['Chest Press', 'Biceps Curl', 'Front Lunge', ...])>
 
 * Do not add logic into view files.
 
+* Translate either all or nothing.
+
 ## Doctrine.
 
 * No need to create empty repository files.
