@@ -21,6 +21,8 @@ excerpt: |
 
 * https://github.com/alex-kalenyuk/sport_calendar
 
+* https://github.com/yvetsalo/sportcalendar
+
 ## PHP.
 
 * Use docstrings!
