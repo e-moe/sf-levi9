@@ -39,7 +39,7 @@ excerpt: |
 
 * Ideally, DataFixtureLoader should only return fixtures.yml file. Try to avoid custom extensions.
 
-{% highlight php %}
+{% highlight yaml %}
 description: <randomElement(['Chest Press', 'Biceps Curl', 'Front Lunge', ...])>
 {% endhighlight %}
 

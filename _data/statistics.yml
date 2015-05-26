@@ -1,0 +1,23 @@
+- name: Iuriy Panayotov
+  tasks: 2
+  score: 2
+
+- name: Oleksandr Kaleniuk
+  tasks: 2
+  score: 1.5
+
+- name: Dmytro Halkin
+  tasks: 1
+  score: 0.5
+
+- name: Ivan Nikolaievskyi
+  tasks: 1
+  score: 0.7
+
+- name: Dmitry Kozyatinskyi
+  tasks: 1
+  score: 0.3
+
+- name: M. Malinovsky
+  tasks: 1
+  score: 0.3
