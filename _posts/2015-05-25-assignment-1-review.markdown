@@ -19,6 +19,12 @@ excerpt: |
 
 * https://github.com/panayotovyura/project2
 
+* https://github.com/alex-kalenyuk/sport_calendar
+
+## PHP.
+
+* Use docstrings!
+
 ## Composer.
 
 * Update/add "php" version in "require" section and used **extensions**
@@ -37,11 +43,15 @@ excerpt: |
 description: <randomElement(['Chest Press', 'Biceps Curl', 'Front Lunge', ...])>
 {% endhighlight %}
 
+* Add predefined user in fixtures for easy testing
+
 ## Symfony.
 
 * Always use keys for translations instead of content strings. ([details][sf-bp-keys])
 
-* Use Symfony IDE integration (e.g PHP Storm [integration][phpstorm-integration])
+* Use Symfony IDE integration (e.g PHP Storm [integration][phpstorm-integration]).
+
+* Pass as more specific classes as possible as dependencies into your services.
 
 ## Routing.
 
@@ -58,6 +68,8 @@ description: <randomElement(['Chest Press', 'Biceps Curl', 'Front Lunge', ...])>
 ## Doctrine.
 
 * No need to create empty repository files.
+
+* Store queries in repository classes but not in service.
 
 ## Unit tests.
 
