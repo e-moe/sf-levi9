@@ -6,8 +6,9 @@ category: assignments
 tags:
     - training
     - assignment
-    - jam storage
-    - sonata
+    - students database
+    - doctrine
+    - batch processing
 excerpt: |
     Students database.
     Idea of student’s database is to create a site of some university. On the site everybody could read

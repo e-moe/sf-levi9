@@ -25,11 +25,11 @@ complex logic in SQL queries. Caching queries data. Introduction to HTTP cache.
 
 ## Useful materials.
 
-* [Nelmio Alice bundle][alice]
 * [Doctrine Batch Processing][doctrine-batch]
 * [The Symfony Book][sf-book]
 * [The Symfony Cookbook][sf-cookbook]
 * [Symfony Best Practices][sf-best-practices]
+* [Nelmio Alice bundle][alice]
 * [PHPUnit][phpunit]
 * [PHP Quality Assurance Tools][php-code-quality]
 
