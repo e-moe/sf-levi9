@@ -29,6 +29,7 @@ images with SonataMedia.
 ## Useful materials.
 
 * [SonataAdminBundle][sonata]
+* [SQLite 3 Beyond the Basics][sqlite]
 * [Nelmio Alice bundle][alice]
 * [The Symfony Book][sf-book]
 * [The Symfony Cookbook][sf-cookbook]
@@ -41,6 +42,7 @@ images with SonataMedia.
 * [Workshop presentation (pptx)][presentation]
 
 [sonata]:               https://sonata-project.org/bundles/admin
+[sqlite]:               http://www.sitepoint.com/sqlite-3-beyond-basics/
 [alice]:                https://github.com/hautelook/AliceBundle
 [sf-book]:              http://symfony.com/doc/current/book/index.html
 [sf-cookbook]:          http://symfony.com/doc/current/cookbook/index.html

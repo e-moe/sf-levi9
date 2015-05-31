@@ -50,13 +50,13 @@ Set up bundle and implement CRUD for enumerations. Use [documentation][sonata] f
 
 Use [documentation][sonata] for help.
 
-## 4. Amount functionality
+## 4. Amount functionality.
 
 Add to the form of JamJar "Ammount" field. This field should be available only on "create" form.
 This field is not mapped to entity. By default value of field is 1. If during creation of JamJar user
 changes value to N – then during creation, N instances of JamJar should be created.
 
-## 5. Write unit tests
+## 5. Write unit tests.
 
 It would be nice if this multiplying/copying logic would be stored in a service class and covered with unit test
 ([PHPUnit][phpunit]).
@@ -71,7 +71,7 @@ Update your "composer.json" "require-dev" section to install these tools:
 
 Check your "src/" folder and fix **all** errors/warnings.
   
-## 7. Integrate Travis CI
+## 7. Integrate Travis CI.
  
 Integrate continuous integration (CI) into your repository based on [Travis CI][travis-ci]
 ([Getting started][travis-ci-gs], [PHP][travis-ci-php]).
