@@ -26,6 +26,7 @@ complex logic in SQL queries. Caching queries data. Introduction to HTTP cache.
 ## Useful materials.
 
 * [Nelmio Alice bundle][alice]
+* [Doctrine Batch Processing][doctrine-batch]
 * [The Symfony Book][sf-book]
 * [The Symfony Cookbook][sf-cookbook]
 * [Symfony Best Practices][sf-best-practices]
@@ -37,6 +38,7 @@ complex logic in SQL queries. Caching queries data. Introduction to HTTP cache.
 * [Workshop presentation (pptx)][presentation]
 
 [alice]:                https://github.com/hautelook/AliceBundle
+[doctrine-batch]:       http://doctrine-orm.readthedocs.org/en/latest/reference/batch-processing.html
 [sf-book]:              http://symfony.com/doc/current/book/index.html
 [sf-cookbook]:          http://symfony.com/doc/current/cookbook/index.html
 [sf-best-practices]:    http://symfony.com/doc/current/best_practices/index.html

@@ -10,6 +10,9 @@ tags:
     - sonata
 excerpt: |
     Students database.
+    Idea of student’s database is to create a site of some university. On the site everybody could read
+    detail page of student. In this assignment we will focus only on displaying these detail pages trying
+    to keep application as much lightweight as possible, but made with Symfony 2.
 ---
 * TOC
 {:toc}
@@ -38,14 +41,14 @@ The console command should fill in "path" property of Student entity in a way, t
 * Path must be unique in the system, add extra number for duplicates. So, if "alex_sidorov" path already exists and
   there is another Alex Sidorov - next one will obtain path "alex_sidorov_1", next - "alex_sidorov_2", etc.
 
-The logic of path generation should be implemented in PHP (not in SQL).
+The logic of path generation should be implemented in PHP (not in SQL). See [documentation][doctrine-batch] for example.
 
 **Tip:** Just foreach all students (with pagination, of course) and generate "path" for them one by one.
 After path for one student is generated - add this path to some array, so that you could check for duplicates.
 
 It would be nice if logic of path generation is stored in some service class and covered by unit test.
 
-At the end of command execution - echo command time and peak memory usage.
+At the end of command execution - echo command time and peak memory usage ([example][batch-processing]).
 
 ![Console command output][console]
 
@@ -63,7 +66,7 @@ Turn on build-in full page cache. And cache every viewed page for 15 minutes. Us
 ## 5. Write functional and unit tests.
 
 Write functional test (open students details page by generated route) and unit test (path generation logic) 
-using[PHPUnit][phpunit].
+using [PHPUnit][phpunit].
 
 ## 6. Static Analysis Tools (optional).
 
@@ -92,6 +95,8 @@ Commit your latest code into [GitHub][github] and send the link as a result of f
 [console]:              {{ site.baseurl }}/assets/students_console.png
 [details]:              {{ site.baseurl }}/assets/students_details.png
 [alice]:                https://github.com/hautelook/AliceBundle
+[doctrine-batch]:       http://doctrine-orm.readthedocs.org/en/latest/reference/batch-processing.html
+[batch-processing]:     http://www.doctrine-project.org/2009/08/07/doctrine2-batch-processing.html
 [github]:               https://github.com/
 [phpunit]:              https://phpunit.de/
 [phpcs]:                https://github.com/squizlabs/PHP_CodeSniffer
