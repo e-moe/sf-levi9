@@ -49,6 +49,8 @@ excerpt: |
 
 * Pass as more specific classes as possible as dependencies into your services.
 
+* 2.7 is available now!
+
 ## Doctrine.
 
 * Use appropriate types
