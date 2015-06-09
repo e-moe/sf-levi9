@@ -29,6 +29,8 @@ complex logic in SQL queries. Caching queries data. Introduction to HTTP cache.
 * [The Symfony Book][sf-book]
 * [The Symfony Cookbook][sf-cookbook]
 * [Symfony Best Practices][sf-best-practices]
+* [Varnhish][varnish]
+* [FOSHttpCacheBundle][fos-cache]
 * [Nelmio Alice bundle][alice]
 * [PHPUnit][phpunit]
 * [PHP Quality Assurance Tools][php-code-quality]
@@ -42,6 +44,8 @@ complex logic in SQL queries. Caching queries data. Introduction to HTTP cache.
 [sf-book]:              http://symfony.com/doc/current/book/index.html
 [sf-cookbook]:          http://symfony.com/doc/current/cookbook/index.html
 [sf-best-practices]:    http://symfony.com/doc/current/best_practices/index.html
+[varnish]:              https://www.varnish-cache.org/
+[fos-cache]:            http://foshttpcachebundle.readthedocs.org/en/latest/
 [phpunit]:              https://phpunit.de/
 [php-code-quality]:     http://www.sitepoint.com/8-must-have-php-quality-assurance-tools/
 [presentation]:         {{ site.baseurl }}/assets/workshop_3_highload.pptx
