@@ -11,33 +11,40 @@ tags:
     - rest
 excerpt: |
     GitHub API.
-    Idea of ...
+    Idea of GitHub API is to create RESTful webservice for GitHub repositories.
 ---
 * TOC
 {:toc}
 
 ## GitHub API.
 
-Idea of GitHub API is to create ...
+Idea of GitHub API is to create RESTful webservice for GitHub repositories. It should be possible to get list
+of your repositories (filtered) and handle repository comments.
 
 ## 1. API v1: Implement basic GitHub service.
 
+{% highlight php %}
 GET /repos?[page=:x&per_page:y]
+{% endhighlight %}
 
 ## 2. API v2: Implement comments service.
 
+{% highlight php %}
 GET         /repos?[type=all|owner|public|private|member][page=:x&per_page:y]
 GET|POST    /repos/:name/comments?[page=:x&per_page:y]
 GET|PUT     /repos/:name/comments/:id
+{% endhighlight %}
 
 ## 3. API v3: Auth, formats and HATEOAS.
 
-JSON and XML, HATEOAS
+Support Auth and multiple users, data formats: JSON and XML and links HATEOAS.
 
+{% highlight php %}
 GET         /repos?[type=all|owner|public|private|member][page=:x&per_page:y]
 GET|POST    /repos/:name/comments?[page=:x&per_page:y]
 GET|PUT     /repos/:name/comments/:id
- 
+{% endhighlight %}
+
 ## 4. Write unit tests.
 
 Write unit tests to cover GitHub and Comments services usage [PHPUnit][phpunit].
