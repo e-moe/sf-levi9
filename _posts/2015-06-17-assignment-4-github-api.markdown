@@ -11,17 +11,24 @@ tags:
     - rest
 excerpt: |
     GitHub API.
-    Idea of GitHub API is to create RESTful webservice for GitHub repositories.
+    Idea of GitHub API is to create RESTful webservice proxy for GitHub API with additional functionality.
 ---
 * TOC
 {:toc}
 
 ## GitHub API.
 
-Idea of GitHub API is to create RESTful webservice for GitHub repositories. It should be possible to get list
-of your repositories (filtered) and handle repository comments.
+Idea of GitHub API is to create RESTful webservice proxy for [GitHub API][api-doc] with additional functionality.
+It&nbsp;should be possible to get list of your repositories (filtered) from GitHub and provide additional comments list.
+
+![HitHub API][github_api]
 
 ## 1. API v1: Implement basic GitHub service.
+
+Create service class in your application for [GitHub API][api-doc] connection. The only data you need -
+[list][api-repos] of user's repositories.
+
+**Tip:** _Use [Guzzle][guzzle] HTTP Client library or one of available Guzzle Bundles._
 
 {% highlight php %}
 GET /repos?[page=:x&per_page:y]
@@ -74,6 +81,10 @@ Integrate continuous integration (CI) into your repository based on [Travis CI][
 Commit your latest code into [GitHub][github] and send the link as a result of fulfilled home task.
 
 [github]:               https://github.com/
+[github_api]:           {{ site.baseurl }}/assets/github_api.png
+[api-doc]:              https://developer.github.com/v3/
+[api-repos]:            https://developer.github.com/v3/repos/
+[guzzle]:               http://guzzle.readthedocs.org/en/latest/
 [phpunit]:              https://phpunit.de/
 [phpcs]:                https://github.com/squizlabs/PHP_CodeSniffer
 [psr2]:                 https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
