@@ -44,7 +44,7 @@ GET|PUT     /repos/:name/comments/:id
 
 ## 3. API v3: Auth, formats and HATEOAS.
 
-Support Auth and multiple users, data formats: JSON and XML and links HATEOAS.
+Support Auth and multiple users, data formats: JSON and XML and links [HATEOAS][hateoas].
 
 {% highlight php %}
 GET         /repos?[type=all|owner|public|private|member][page=:x&per_page:y]
@@ -85,6 +85,7 @@ Commit your latest code into [GitHub][github] and send the link as a result of f
 [api-doc]:              https://developer.github.com/v3/
 [api-repos]:            https://developer.github.com/v3/repos/
 [guzzle]:               http://guzzle.readthedocs.org/en/latest/
+[hateoas]:              https://en.wikipedia.org/wiki/HATEOAS
 [phpunit]:              https://phpunit.de/
 [phpcs]:                https://github.com/squizlabs/PHP_CodeSniffer
 [psr2]:                 https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
