@@ -23,6 +23,8 @@ excerpt: |
 
 * https://github.com/yvetsalo/sportcalendar
 
+* https://github.com/dhalkin/sport-calendar
+
 ## PHP.
 
 * Use docstrings!

@@ -21,6 +21,8 @@ excerpt: |
 
 * https://github.com/alex-kalenyuk/students_db
 
+* https://github.com/dhalkin/students
+
 ## PHP.
 
 * Garbage collector
