@@ -12,5 +12,5 @@ github:
     - maxmode
 twitter_username:
 
-# Build settings
-markdown: kramdown
+kramdown:
+  input: GFM
